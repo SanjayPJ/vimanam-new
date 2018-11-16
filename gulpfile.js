@@ -14,3 +14,12 @@ gulp.task('compile-scss', function () {
             .pipe(gulp.dest('assets/css'));
     });
 });
+
+gulp.task('compile-bootstrap', function () {
+    gulp.watch('node_modules/bootstrap/scss/bootstrap.scss', function () {
+        console.log("compiling scss...");
+        return gulp.src('node_modules/bootstrap/scss/bootstrap.scss')
+            .pipe(sass().on('error', sass.logError))
+            .pipe(gulp.dest('assets/css'));
+    });
+});

@@ -1,6 +1,36 @@
+html{
+    font-size: 10px;
+}
 body{
-    border: 0;
-    h1{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.6rem;
+}
+.w-80{
+    width: 95%;
+    margin: 0 auto;
+}
+.contact{
+    margin-top: .6rem;
+    i, a{
         color: #fff;
+        text-decoration: none;
+    }
+}
+.icon-wrapper{
+    display: inline-block;
+    font-size: 1.3rem;
+    height: 3.6rem;
+    width: 3.6rem;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    transition: all 0.5s;
+    a{
+        color: #fff;
+    }
+    i{
+        padding: 1.1rem 1.2rem;
+    }
+    &:hover{
+        background-color: rgba(0, 0, 0, 0.5);
     }
 }
