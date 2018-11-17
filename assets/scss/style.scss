@@ -1,8 +1,15 @@
+@import url("animation.css");
+
+$poppins: 'Poppins',sans-serif;
+
+$white: #EBEBEB;
+$black: #202020;
+
 html{
     font-size: 10px;
 }
 body{
-    font-family: 'Lato', sans-serif;
+    font-family: $poppins;
     font-size: 1.6rem;
 }
 .w-80{
@@ -10,9 +17,10 @@ body{
     margin: 0 auto;
 }
 .contact{
-    margin-top: .6rem;
+    margin-top: .7rem;
+    font-size: 1.5rem;
     i, a{
-        color: #fff;
+        color: $white;
         text-decoration: none;
     }
 }
@@ -25,7 +33,7 @@ body{
     border-radius: 50%;
     transition: all 0.5s;
     a{
-        color: #fff;
+        color: $white;
     }
     i{
         padding: 1.1rem 1.2rem;
@@ -33,4 +41,88 @@ body{
     &:hover{
         background-color: rgba(0, 0, 0, 0.5);
     }
+}
+.hero{
+    &-wrapper{
+        position: relative;
+        height: 75vh;
+        width: 100%;
+        overflow: hidden;
+        z-index: 9999;
+    }
+    &-image{
+        -webkit-animation: bg 60s linear infinite;
+        animation: bg 60s linear infinite;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+        /* Set your background with this */
+        background: url("../img/hero-optimised-min.jpg") bottom left;
+        background-position: center;
+        background-size: cover;
+        background-repeat: repeat-x;
+        height: 100%;
+        opacity: 1;
+        position: absolute;
+        background-size: 1950px auto;
+        width: 10750px;
+    }
+    &-logo-container{
+        position: absolute;
+        background-color: rgba(255, 255, 255, 0.5);
+        height: 10rem;
+        width: 36.1rem;
+        border-radius: 7rem;
+        top: -2.7rem;
+        left: -13.4rem;
+    }
+    &-text{
+        color: $white;
+        position: absolute;
+        bottom: 7rem;
+        h1{
+            font-size: 5.2rem;
+            font-weight: 500;
+            line-height: 5.5rem;
+        }
+        h6{
+            font-weight: 400;
+            font-size: 2.2rem;
+            opacity: 0.8;
+        }
+    }
+}
+.navbar-brand{
+    img {
+        height: 5.5rem;
+        // margin: 3.2rem 18.3rem;
+    }
+}
+.nav-item{
+    font-weight: 500;
+}
+
+.btn:link,
+.btn:visited {
+    font-size: 1.7rem;
+    display: inline-block;
+    padding: 1rem 3rem;
+    font-weight: 500;
+    text-decoration: none;
+    border-radius: 20rem;
+    color: $white;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+.ghostbtn:link,
+.ghostbtn:visited {
+    border: 0.2rem solid $white;
+    color: $white;
+}
+
+.ghostbtn:hover,
+.ghostbtn:active {
+    border: 0.2rem solid $white;
+    background-color: $white;
+    color: $black;
 }
