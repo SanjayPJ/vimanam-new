@@ -2,8 +2,11 @@
 
 $poppins: 'Poppins',sans-serif;
 
-$white: #EBEBEB;
-$black: #202020;
+$white: #fff;
+$black: #584444;
+
+$primary-light: #7ed56f;
+$primary-dark: #28b485;
 
 html{
     font-size: 9px;
@@ -13,7 +16,7 @@ body{
     font-size: 1.6rem;
 }
 .w-80{
-    width: 95%;
+    width: 94%;
     margin: 0 auto;
 }
 .contact{
@@ -45,7 +48,7 @@ body{
 .hero{
     &-wrapper{
         position: relative;
-        height: 75vh;
+        height: 80vh;
         width: 100%;
         overflow: hidden;
         z-index: 9999;
@@ -125,4 +128,17 @@ body{
     border: 0.2rem solid $white;
     background-color: $white;
     color: $black;
+}
+.features{
+    background: linear-gradient(to right, $primary-dark, $primary-light);
+    img{
+        width: 97%;
+    }
+    h2{
+        font-size: 2.9rem;
+    }
+    p{
+        font-size: 1.7rem;
+        opacity: 0.9;
+    }
 }
