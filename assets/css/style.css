@@ -71,12 +71,12 @@ body {
   position: absolute;
   bottom: 7rem; }
   .hero-text h1 {
-    font-size: 5.2rem;
+    font-size: 5.4rem;
     font-weight: 500;
     line-height: 5.5rem; }
   .hero-text h6 {
     font-weight: 400;
-    font-size: 2.2rem;
+    font-size: 2rem;
     opacity: 0.8; }
 
 .navbar-brand img {
@@ -111,10 +111,43 @@ body {
   background: linear-gradient(to right, #28b485, #7ed56f); }
   .features img {
     width: 100%; }
-  .features h2 {
-    font-size: 2.9rem;
+  .features h3 {
+    font-size: 3rem;
     font-weight: 500; }
   .features p {
     font-size: 1.7rem;
     opacity: 0.9;
     font-weight: 400; }
+
+.about {
+  overflow: hidden; }
+  .about p {
+    font-size: 2rem;
+    opacity: 0.9; }
+  .about .tenp {
+    width: 4%;
+    border-right: 2px solid rgba(85, 85, 85, 0.2); }
+  .about .ninp {
+    width: 94%;
+    margin-left: 20px; }
+  .about img {
+    height: 14rem; }
+
+h2 {
+  font-size: 3.8rem;
+  font-weight: 600;
+  width: 20rem;
+  background: -webkit-linear-gradient(#7ed56f, #28b485);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; }
+
+.rotate {
+  margin-top: 13rem;
+  transform: rotate(-90deg); }
+
+h3.colored {
+  font-size: 3rem;
+  font-weight: 500;
+  background: -webkit-linear-gradient(#7ed56f, #28b485);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; }
