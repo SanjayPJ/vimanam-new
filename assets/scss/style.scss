@@ -144,40 +144,47 @@ body{
         font-weight: 400;
     }
 }
-.about {
+.about, .gallery {
     overflow: hidden;
     p{
         font-size: 2rem;
         opacity: 0.9;
     }
     .tenp{
-        width: 4%;
+        width: 5%;
         border-right: 2px solid rgba(85, 85, 85, 0.2);
     }
     .ninp{
-        width: 94%;
-        margin-left: 20px;
+        width: 95%;
+        padding-left: 2.6rem;
     }
     img{
         height: 14rem;
     }
+    h2 {
+        font-size: 3.6rem;
+        font-weight: 600;
+        width: 20rem;
+        background: -webkit-linear-gradient($primary-light, $primary-dark);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .rotate {
+        margin-top: 11.2rem;
+        transform: rotate(-90deg);
+    }
+
+    h3.colored {
+        font-size: 3rem;
+        font-weight: 500;
+        background: -webkit-linear-gradient($primary-light, $primary-dark);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
 }
-h2{
-    font-size: 3.8rem;
-    font-weight: 600;
-    width: 20rem;
-    background: -webkit-linear-gradient($primary-light, $primary-dark);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-.rotate{
-    margin-top: 13rem;
-    transform: rotate(-90deg);
-}
-h3.colored{
-    font-size: 3rem;
-    font-weight: 500;
-    background: -webkit-linear-gradient($primary-light, $primary-dark);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+.gallery {
+    .rotate {
+        margin-top: 9rem;
+    }
 }

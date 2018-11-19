@@ -119,35 +119,35 @@ body {
     opacity: 0.9;
     font-weight: 400; }
 
-.about {
+.about, .gallery {
   overflow: hidden; }
-  .about p {
+  .about p, .gallery p {
     font-size: 2rem;
     opacity: 0.9; }
-  .about .tenp {
-    width: 4%;
+  .about .tenp, .gallery .tenp {
+    width: 5%;
     border-right: 2px solid rgba(85, 85, 85, 0.2); }
-  .about .ninp {
-    width: 94%;
-    margin-left: 20px; }
-  .about img {
+  .about .ninp, .gallery .ninp {
+    width: 95%;
+    padding-left: 2.6rem; }
+  .about img, .gallery img {
     height: 14rem; }
+  .about h2, .gallery h2 {
+    font-size: 3.6rem;
+    font-weight: 600;
+    width: 20rem;
+    background: -webkit-linear-gradient(#7ed56f, #28b485);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; }
+  .about .rotate, .gallery .rotate {
+    margin-top: 11.2rem;
+    transform: rotate(-90deg); }
+  .about h3.colored, .gallery h3.colored {
+    font-size: 3rem;
+    font-weight: 500;
+    background: -webkit-linear-gradient(#7ed56f, #28b485);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; }
 
-h2 {
-  font-size: 3.8rem;
-  font-weight: 600;
-  width: 20rem;
-  background: -webkit-linear-gradient(#7ed56f, #28b485);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; }
-
-.rotate {
-  margin-top: 13rem;
-  transform: rotate(-90deg); }
-
-h3.colored {
-  font-size: 3rem;
-  font-weight: 500;
-  background: -webkit-linear-gradient(#7ed56f, #28b485);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; }
+.gallery .rotate {
+  margin-top: 9rem; }
