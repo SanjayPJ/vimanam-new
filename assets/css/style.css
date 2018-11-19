@@ -110,9 +110,11 @@ body {
 .features {
   background: linear-gradient(to right, #28b485, #7ed56f); }
   .features img {
-    width: 97%; }
+    width: 100%; }
   .features h2 {
-    font-size: 2.9rem; }
+    font-size: 2.9rem;
+    font-weight: 500; }
   .features p {
     font-size: 1.7rem;
-    opacity: 0.9; }
+    opacity: 0.9;
+    font-weight: 400; }

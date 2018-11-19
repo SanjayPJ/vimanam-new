@@ -132,13 +132,15 @@ body{
 .features{
     background: linear-gradient(to right, $primary-dark, $primary-light);
     img{
-        width: 97%;
+        width: 100%;
     }
     h2{
         font-size: 2.9rem;
+        font-weight: 500;
     }
     p{
         font-size: 1.7rem;
         opacity: 0.9;
+        font-weight: 400;
     }
 }
