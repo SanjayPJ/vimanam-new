@@ -7,6 +7,7 @@ $black: #584444;
 
 $primary-light: #7ed56f;
 $primary-dark: #28b485;
+$primary-middle: #51C47A;
 
 html{
     font-size: 9px;
@@ -18,6 +19,7 @@ body{
 .w-80{
     width: 94%;
     margin: 0 auto;
+    overflow: hidden;
 }
 .contact{
     margin-top: .7rem;
@@ -144,7 +146,9 @@ body{
         font-weight: 400;
     }
 }
-.about, .gallery {
+.about,
+.gallery,
+.testimonials {
     overflow: hidden;
     p{
         font-size: 2rem;
@@ -178,13 +182,48 @@ body{
     h3.colored {
         font-size: 3rem;
         font-weight: 500;
-        background: -webkit-linear-gradient($primary-light, $primary-dark);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+        color: $primary-middle;
     }
 }
 .gallery {
     .rotate {
         margin-top: 9rem;
+    }
+}
+.testimonials{
+    text-align: center;
+    h2 {
+        font-size: 3.6rem;
+        font-weight: 600;
+        width: 25rem;
+        background: -webkit-linear-gradient($primary-light, $primary-dark);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .rotate {
+        margin-top: 19rem;
+    }
+    .item{
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        h4{
+            font-size: 2rem;
+            font-weight: 400;
+            opacity: 0.9;
+        }
+        h3{
+            font-weight: 500;
+            font-size: 2.5rem;
+            opacity: 0.9;
+        }
+    }
+    img{
+        height: 6rem;
+        width: auto;
+        -webkit-filter: grayscale(100%);
+        /* Safari 6.0 - 9.0 */
+        filter: grayscale(100%);
+        opacity: 0.4;
     }
 }
