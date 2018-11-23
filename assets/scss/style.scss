@@ -4,6 +4,7 @@ $poppins: 'Poppins',sans-serif;
 
 $white: #fff;
 $black: #584444;
+$light: #f8f9fa;
 
 $primary-light: #7ed56f;
 $primary-dark: #28b485;
@@ -148,7 +149,9 @@ body{
 }
 .about,
 .gallery,
-.testimonials {
+.testimonials,
+.services,
+.news {
     overflow: hidden;
     p{
         font-size: 2rem;
@@ -169,6 +172,7 @@ body{
         font-size: 3.6rem;
         font-weight: 600;
         width: 20rem;
+        color: $primary-middle;
         background: -webkit-linear-gradient($primary-light, $primary-dark);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -196,9 +200,6 @@ body{
         font-size: 3.6rem;
         font-weight: 600;
         width: 25rem;
-        background: -webkit-linear-gradient($primary-light, $primary-dark);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
     }
     .rotate {
         margin-top: 19rem;
@@ -227,4 +228,69 @@ body{
         filter: grayscale(100%);
         opacity: 0.4;
     }
+}
+.services{
+    img{
+        width: 100%;
+        height: auto;
+    }
+    h2 {
+        font-size: 3.6rem;
+        font-weight: 600;
+        width: 37rem;
+    }
+    .rotate {
+        margin-top: 29rem;
+    }
+    li{
+        font-size: 2rem;
+        opacity: 0.9;
+        list-style-type: none;
+        line-height: 3.1rem;
+
+        .sec{
+            margin-left: 2.7rem !important;
+        }
+    }
+    li::before{
+        margin-right: 1.2rem;
+        content: '';
+        display: inline-block;
+        width: 1.5rem;
+        height: 1.5rem;
+        -moz-border-radius: .75rem;
+        -webkit-border-radius: .75rem;
+        border-radius: 7.5px;
+        background-color: $primary-middle;
+    }
+}
+.news{
+    h2 {
+        font-size: 3.6rem;
+        font-weight: 600;
+        width: 12rem;
+    }
+    .rotate {
+        margin-top: 4rem;
+    }
+    input{
+        border: 0.2rem solid $primary-middle;
+        padding: 1rem 3rem;
+        border-radius: 20rem;
+        background-color: transparent !important;
+        width: 90rem;
+    }
+}
+
+.ghostbtn-green:link,
+.ghostbtn-green:visited {
+    border: 0.2rem solid $primary-middle;
+    color: $primary-middle;
+}
+
+.ghostbtn-green:hover,
+.ghostbtn-green:active {
+    border: 0.2rem solid $primary-middle;
+    background-color: $primary-middle;
+    color: $white;
 }
