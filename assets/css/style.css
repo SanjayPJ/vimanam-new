@@ -88,7 +88,7 @@ body {
 
 .btn:link,
 .btn:visited {
-  font-size: 1.7rem;
+  font-size: 1.6rem;
   display: inline-block;
   padding: 1rem 3rem;
   font-weight: 500;
@@ -269,3 +269,34 @@ body {
   border: 0.2rem solid #51C47A;
   background-color: #51C47A;
   color: #fff; }
+
+footer {
+  background: linear-gradient(to right, #28b485, #7ed56f);
+  color: #fff;
+  position: relative; }
+  footer h4 {
+    font-weight: 500;
+    font-size: 2.7rem; }
+  footer img {
+    width: 100%;
+    height: auto; }
+  footer h5 {
+    font-weight: 500;
+    font-size: 2rem; }
+  footer p {
+    font-size: 1.6rem;
+    opacity: 0.9; }
+  footer .img-wrapper {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.5);
+    height: 8rem;
+    width: 29rem;
+    border-radius: 7rem;
+    top: 4rem;
+    left: -3.5rem; }
+    footer .img-wrapper img {
+      margin: 1rem 0rem 0 9rem;
+      height: 5.5rem;
+      width: auto; }
+  footer .last {
+    background-color: rgba(0, 0, 0, 0.1); }

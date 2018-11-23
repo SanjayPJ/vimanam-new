@@ -16,3 +16,7 @@ $('.owl-carousel').owlCarousel({
         }
     }
 })
+
+// year
+var dt = new Date();
+document.querySelector(".year").innerHTML = dt.getFullYear(); 
