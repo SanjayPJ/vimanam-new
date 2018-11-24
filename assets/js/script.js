@@ -21,3 +21,12 @@ $('.owl-carousel').owlCarousel({
 // year
 var dt = new Date();
 document.querySelector(".year").innerHTML = dt.getFullYear(); 
+
+// lightgallery
+$(document).ready(function() {
+    $("#lightgallery").lightGallery(); 
+    $("#lightgallery1").lightGallery(); 
+    $("#lightgallery2").lightGallery(); 
+    $('#video-gallery').lightGallery(); 
+    $('#video-gallery1').lightGallery(); 
+});
