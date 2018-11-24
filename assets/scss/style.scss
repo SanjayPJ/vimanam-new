@@ -227,6 +227,11 @@ body{
         /* Safari 6.0 - 9.0 */
         filter: grayscale(100%);
         opacity: 0.4;
+        transition: all 0.5s;
+    }
+    img:hover{
+        -webkit-filter: grayscale(0%);
+        opacity: 1;
     }
 }
 .services{
@@ -274,11 +279,13 @@ body{
         margin-top: 4rem;
     }
     input{
+        font-size: 1.6rem;
         border: 0.2rem solid $primary-middle;
-        padding: 1rem 3rem;
+        padding: 2rem 3rem;
         border-radius: 20rem;
         background-color: transparent !important;
         width: 90rem;
+        display: inline-block;
     }
 }
 
@@ -334,4 +341,15 @@ footer{
             text-decoration: none;
         }
     }
+}
+
+.btn-sm:link,
+.btn-sm:visited {
+    font-size: 1.3rem;
+    display: inline-block;
+    padding: .8rem 2rem;
+}
+
+hr{
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
 }
