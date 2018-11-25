@@ -300,10 +300,8 @@ footer {
     font-size: 2rem; }
   footer .blog-section {
     transition: all 0.5s; }
-  footer .blog-section:hover {
-    background-color: rgba(0, 0, 0, 0.1); }
-    footer .blog-section:hover h5 {
-      text-decoration: underline; }
+  footer .blog-section:hover h5 {
+    text-decoration: underline; }
   footer p {
     font-size: 1.6rem;
     opacity: 0.9; }
