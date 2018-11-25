@@ -326,6 +326,15 @@ footer{
         font-weight: 500;
         font-size: 2rem;
     }
+    .blog-section{
+        transition: all 0.5s;
+    }
+    .blog-section:hover{
+        background-color: rgba(0, 0, 0, 0.1);
+        h5{
+            text-decoration: underline;
+        }
+    }
     p{
         font-size: 1.6rem;
         opacity: 0.9;
