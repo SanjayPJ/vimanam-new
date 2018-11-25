@@ -1,6 +1,7 @@
 @import url("animation.css");
+@import url("button.css");
 html {
-  font-size: 9px; }
+  font-size: 5px; }
 
 body {
   font-family: "Poppins", sans-serif;
@@ -85,28 +86,6 @@ body {
 
 .nav-item {
   font-weight: 500; }
-
-.btn:link,
-.btn:visited {
-  font-size: 1.6rem;
-  display: inline-block;
-  padding: 1rem 3rem;
-  font-weight: 500;
-  text-decoration: none;
-  border-radius: 20rem;
-  color: #fff;
-  transition: background-color 0.2s, border 0.2s, color 0.2s; }
-
-.ghostbtn:link,
-.ghostbtn:visited {
-  border: 0.2rem solid #fff;
-  color: #fff; }
-
-.ghostbtn:hover,
-.ghostbtn:active {
-  border: 0.2rem solid #fff;
-  background-color: #fff;
-  color: #000; }
 
 .features {
   background: linear-gradient(to right, #28b485, #7ed56f); }
@@ -271,19 +250,7 @@ body {
   padding: 2rem 3rem;
   border-radius: 20rem;
   background-color: transparent !important;
-  width: 90rem;
   display: inline-block; }
-
-.ghostbtn-green:link,
-.ghostbtn-green:visited {
-  border: 0.2rem solid #51C47A;
-  color: #51C47A; }
-
-.ghostbtn-green:hover,
-.ghostbtn-green:active {
-  border: 0.2rem solid #51C47A;
-  background-color: #51C47A;
-  color: #fff; }
 
 footer {
   background: linear-gradient(to right, #28b485, #7ed56f);
@@ -322,11 +289,47 @@ footer {
     footer .last a {
       text-decoration: none; }
 
+hr {
+  border-top: 1px solid rgba(255, 255, 255, 0.5); }
+
+.btn:link,
+.btn:visited {
+  font-size: 1.6rem;
+  display: inline-block;
+  padding: 1rem 3rem;
+  font-weight: 500;
+  text-decoration: none;
+  border-radius: 20rem;
+  color: #fff;
+  transition: background-color 0.2s, border 0.2s, color 0.2s; }
+
+.ghostbtn:link,
+.ghostbtn:visited {
+  border: 0.2rem solid #fff;
+  color: #fff; }
+
+.ghostbtn:hover,
+.ghostbtn:active {
+  border: 0.2rem solid #fff;
+  background-color: #fff;
+  color: #000; }
+
+.ghostbtn-green:link,
+.ghostbtn-green:visited {
+  border: 0.2rem solid #51C47A;
+  color: #51C47A; }
+
+.ghostbtn-green:hover,
+.ghostbtn-green:active {
+  border: 0.2rem solid #51C47A;
+  background-color: #51C47A;
+  color: #fff; }
+
 .btn-sm:link,
 .btn-sm:visited {
   font-size: 1.3rem;
   display: inline-block;
   padding: .8rem 2rem; }
 
-hr {
-  border-top: 1px solid rgba(255, 255, 255, 0.5); }
+.spacer {
+  margin-top: 2.5rem; }
