@@ -3,7 +3,7 @@
 $poppins: 'Poppins',sans-serif;
 
 $white: #fff;
-$black: #584444;
+$black: #000;
 $light: #f8f9fa;
 
 $primary-light: #7ed56f;
@@ -192,6 +192,15 @@ body{
 .gallery {
     .rotate {
         margin-top: 9rem;
+    }
+    .back-b{
+        background-color: #000;
+    }
+    img{
+        transition: all 0.3s;
+    }
+    img:hover{
+        opacity: 0.8;
     }
 }
 .testimonials{
