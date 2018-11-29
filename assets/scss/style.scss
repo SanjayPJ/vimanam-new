@@ -117,6 +117,31 @@ body{
         }
     }
 }
+.main-body{
+    h2 {
+        font-size: 3.6rem;
+        font-weight: 600;
+        width: 20rem;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+        color: $primary-middle;
+        background: -webkit-linear-gradient($primary-light, $primary-dark);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    img{
+        height: 27rem;
+        width: 100%;
+        transition: all 0.3s;
+    }
+    a{
+        background-color: #000;
+        display: block;
+    }
+    img:hover{
+        opacity: 0.8;
+    }
+}
 .navbar-brand{
     img {
         height: 5.5rem;

@@ -27,6 +27,7 @@ $(document).ready(function() {
     $("#lightgallery").lightGallery(); 
     $("#lightgallery1").lightGallery(); 
     $("#lightgallery2").lightGallery(); 
+    $("#lightgallery3").lightGallery(); 
     $('#video-gallery').lightGallery(); 
     $('#video-gallery1').lightGallery(); 
 });
