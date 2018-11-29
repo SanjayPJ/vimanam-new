@@ -30,6 +30,6 @@
   html {
     font-size: 8px; } }
 
-@media (min-width: 1200px) {
-  html {
-    font-size: 9px; } }
+@media (min-width: 2500px) {
+  .hero-image {
+    background-size: 3200px auto; } }

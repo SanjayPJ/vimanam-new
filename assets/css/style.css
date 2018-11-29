@@ -40,6 +40,19 @@ body {
   width: 100%;
   overflow: hidden;
   z-index: 9999; }
+  .hero-wrapper-sub {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/bg1.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 10; }
+    .hero-wrapper-sub h1 {
+      font-size: 6rem;
+      color: #fff;
+      background: linear-gradient(to right, rgba(39, 180, 133, 0.7), rgba(128, 214, 113, 0.7));
+      display: inline; }
+    .hero-wrapper-sub .h1-wrapp {
+      padding: 20rem 0 15rem 0; }
 
 .hero-image {
   -webkit-animation: bg 60s linear infinite;
