@@ -31,6 +31,9 @@ body{
         text-decoration: none;
     }
 }
+.text-main{
+    color: $primary-middle !important;
+}
 .icon-wrapper{
     display: inline-block;
     font-size: 1.3rem;
@@ -416,4 +419,15 @@ hr{
 }
 .spacer{
     margin-top: 2.5rem;
+}
+.text-large{
+    font-size: 3rem;
+    font-weight: 500;
+}
+.card-body{
+    font-size: 2rem !important;
+}
+.normal-white-space{
+    text-align: left !important;
+    white-space: normal !important;
 }
