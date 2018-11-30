@@ -12,7 +12,17 @@
   .ninp {
     width: 100% !important; }
   .img-wrapper {
-    display: none; } }
+    display: none; }
+  .w-80 {
+    width: 95%;
+    margin: 0 auto;
+    overflow: hidden; }
+  .hero-logo-container {
+    height: 10rem;
+    width: 35.1rem;
+    border-radius: 7rem;
+    top: -2.7rem;
+    left: -15.4rem; } }
 
 @media (min-width: 576px) {
   html {
@@ -30,6 +40,20 @@
   html {
     font-size: 8px; } }
 
+@media (min-width: 1100px) {
+  .hero-logo-container {
+    height: 10rem;
+    width: 36.1rem;
+    border-radius: 7rem;
+    top: -2.7rem;
+    left: -9.4rem; } }
+
 @media (min-width: 2500px) {
   .hero-image {
-    background-size: 3200px auto; } }
+    background-size: 3200px auto; }
+  .hero-logo-container {
+    height: 10rem;
+    width: 40.1rem;
+    border-radius: 7rem;
+    top: -2.7rem;
+    left: -6.4rem; } }
