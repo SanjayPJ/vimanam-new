@@ -135,7 +135,7 @@ body{
         transition: all 0.3s;
     }
     a{
-        background-color: #000;
+        // background-color: #000;
         display: block;
     }
     img:hover{
@@ -212,14 +212,12 @@ body{
     .rotate {
         margin-top: 9rem;
     }
-    .back-b{
-        background-color: #000;
-    }
     img{
         transition: all 0.3s;
+        // filter: saturate(1.2);
     }
     img:hover{
-        opacity: 0.8;
+        opacity: 0.9;
     }
 }
 .testimonials{

@@ -111,7 +111,6 @@ body {
   transition: all 0.3s; }
 
 .main-body a {
-  background-color: #000;
   display: block; }
 
 .main-body img:hover {
@@ -199,14 +198,11 @@ body {
 .gallery .rotate {
   margin-top: 9rem; }
 
-.gallery .back-b {
-  background-color: #000; }
-
 .gallery img {
   transition: all 0.3s; }
 
 .gallery img:hover {
-  opacity: 0.8; }
+  opacity: 0.9; }
 
 .testimonials {
   text-align: center; }
