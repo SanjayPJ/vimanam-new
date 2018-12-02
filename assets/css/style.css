@@ -241,8 +241,14 @@ body {
     opacity: 1; }
 
 .services img {
-  width: 100%;
-  height: auto; }
+  width: 97%;
+  height: auto;
+  -ms-transform: skewX(-3deg);
+  /* IE 9 */
+  -webkit-transform: skewX(-3deg);
+  /* Safari */
+  transform: skewX(-3deg);
+  /* Standard syntax */ }
 
 .services h2 {
   font-size: 3.6rem;

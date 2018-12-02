@@ -265,8 +265,11 @@ body{
 }
 .services{
     img{
-        width: 100%;
+        width: 97%;
         height: auto;
+        -ms-transform: skewX(-3deg); /* IE 9 */
+        -webkit-transform: skewX(-3deg); /* Safari */
+        transform: skewX(-3deg); /* Standard syntax */
     }
     h2 {
         font-size: 3.6rem;
