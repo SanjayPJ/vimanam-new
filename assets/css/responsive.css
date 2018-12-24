@@ -13,16 +13,18 @@
     width: 100% !important; }
   .img-wrapper {
     display: none; }
-  .w-80 {
-    width: 95%;
-    margin: 0 auto;
-    overflow: hidden; }
   .hero-logo-container {
     height: 10rem;
     width: 35.1rem;
     border-radius: 7rem;
     top: -2.7rem;
     left: -15.4rem; } }
+
+@media (max-width: 1440px) {
+  .w-80 {
+    width: 95%;
+    margin: 0 auto;
+    overflow: hidden; } }
 
 @media (min-width: 576px) {
   html {
@@ -47,6 +49,20 @@
     border-radius: 7rem;
     top: -2.7rem;
     left: -9.4rem; } }
+
+@media (min-width: 1440px) {
+  footer .img-wrapper {
+    display: none; }
+  .hero-logo-container {
+    display: none; }
+  .navbar {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 0rem 0rem 0.8rem 0.8rem; }
+    .navbar a {
+      color: #202020 !important; }
+    .navbar a:hover {
+      font-weight: 600;
+      color: #202020 !important; } }
 
 @media (min-width: 2500px) {
   .hero-image {
