@@ -35,6 +35,9 @@
         margin: 0 auto;
         overflow: hidden;
     }
+    .base-logo{
+        display: none;
+    }
  }
 
  //min
@@ -57,10 +60,14 @@
     }
 
  }
-
-@media (min-width: 992px) { 
+ @media (min-width: 1200px) { 
     html{
         font-size: 8px;
+    }
+ }
+ @media (min-width: 1440px) { 
+    html{
+        font-size: 9.6px;
     }
  }
 
@@ -84,12 +91,14 @@
      .navbar{
          background-color: rgba(255, 255, 255, 0.5);
          border-radius: 0rem 0rem 0.8rem 0.8rem;
+        padding: 1rem 3rem;
          a{
             color: #202020 !important;
          }
          a:hover{
-             font-weight: 600;
+            //  font-weight: 600;
             color: #202020 !important;
+            text-decoration: underline;
          }
      }
  }

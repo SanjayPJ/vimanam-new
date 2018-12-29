@@ -24,7 +24,9 @@
   .w-80 {
     width: 95%;
     margin: 0 auto;
-    overflow: hidden; } }
+    overflow: hidden; }
+  .base-logo {
+    display: none; } }
 
 @media (min-width: 576px) {
   html {
@@ -38,9 +40,13 @@
   .spacer-md {
     margin-top: 0; } }
 
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
   html {
     font-size: 8px; } }
+
+@media (min-width: 1440px) {
+  html {
+    font-size: 9.6px; } }
 
 @media (min-width: 1100px) {
   .hero-logo-container {
@@ -57,12 +63,13 @@
     display: none; }
   .navbar {
     background-color: rgba(255, 255, 255, 0.5);
-    border-radius: 0rem 0rem 0.8rem 0.8rem; }
+    border-radius: 0rem 0rem 0.8rem 0.8rem;
+    padding: 1rem 3rem; }
     .navbar a {
       color: #202020 !important; }
     .navbar a:hover {
-      font-weight: 600;
-      color: #202020 !important; } }
+      color: #202020 !important;
+      text-decoration: underline; } }
 
 @media (min-width: 2500px) {
   .hero-image {

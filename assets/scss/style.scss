@@ -265,11 +265,11 @@ body{
 }
 .services{
     img{
-        width: 97%;
+        width: 100%;
         height: auto;
-        -ms-transform: skewX(-3deg); /* IE 9 */
-        -webkit-transform: skewX(-3deg); /* Safari */
-        transform: skewX(-3deg); /* Standard syntax */
+        // -ms-transform: skewX(-3deg); /* IE 9 */
+        // -webkit-transform: skewX(-3deg); /* Safari */
+        // transform: skewX(-3deg); /* Standard syntax */
     }
     h2 {
         font-size: 3.6rem;
@@ -433,4 +433,17 @@ hr{
 .normal-white-space{
     text-align: left !important;
     white-space: normal !important;
+}
+.base-logo{
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.5);
+    height: 8rem;
+    width: 22rem;
+    border-radius: 7rem;
+    left: 1.5rem;
+    img{
+        margin: 1rem 0rem 0 5rem;
+        height: 5.5rem;
+        width: auto
+    }
 }
