@@ -97,56 +97,50 @@ body {
     font-size: 2rem;
     opacity: 0.8; }
 
-.main-body h2 {
-  font-size: 3.6rem;
-  font-weight: 600;
-  margin-top: 2rem;
-  margin-bottom: 1rem;
-  color: #51C47A;
-  background: -webkit-linear-gradient(#7ed56f, #28b485);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; }
-
-.main-body h1 {
-  font-size: 4.2rem;
-  font-weight: 600;
-  margin-top: 2rem;
-  margin-bottom: 1rem;
-  color: #51C47A;
-  background: -webkit-linear-gradient(#7ed56f, #28b485);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; }
-
-.main-body h3 {
-  font-size: 2rem;
-  font-weight: 600;
-  margin-top: 2rem;
-  margin-bottom: 1rem;
-  color: #51C47A;
-  background: -webkit-linear-gradient(#7ed56f, #28b485);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; }
-
-.main-body img {
-  height: 27rem;
-  width: 100%;
-  transition: all 0.3s; }
-
-.main-body a {
-  display: block; }
-
-.main-body img:hover {
-  opacity: 0.8; }
-
-.main-body p, .main-body textarea, .main-body input, .main-body button {
-  font-size: 2rem;
-  opacity: 0.9; }
-
-.main-body textarea, .main-body input {
-  padding: 2.3rem; }
-
-.main-body button {
-  padding: 1.2rem; }
+.main-body {
+  margin-top: -2rem; }
+  .main-body h2 {
+    font-size: 3.6rem;
+    font-weight: 600;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: #51C47A;
+    background: -webkit-linear-gradient(#7ed56f, #28b485);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; }
+  .main-body h1 {
+    font-size: 4.2rem;
+    font-weight: 600;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: #51C47A;
+    background: -webkit-linear-gradient(#7ed56f, #28b485);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; }
+  .main-body h3 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: #51C47A;
+    background: -webkit-linear-gradient(#7ed56f, #28b485);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; }
+  .main-body img {
+    height: 27rem;
+    width: 100%;
+    transition: all 0.3s; }
+  .main-body a {
+    display: block; }
+  .main-body img:hover {
+    opacity: 0.8; }
+  .main-body p, .main-body textarea, .main-body input, .main-body button {
+    font-size: 2rem;
+    opacity: 0.9; }
+  .main-body textarea, .main-body input {
+    padding: 2.3rem; }
+  .main-body button {
+    padding: 1.2rem; }
 
 .navbar-brand img {
   height: 5.5rem; }
