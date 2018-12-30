@@ -121,10 +121,30 @@ body{
     }
 }
 .main-body{
+
     h2 {
         font-size: 3.6rem;
         font-weight: 600;
-        width: 20rem;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+        color: $primary-middle;
+        background: -webkit-linear-gradient($primary-light, $primary-dark);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    h1 {
+        font-size: 4.2rem;
+        font-weight: 600;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+        color: $primary-middle;
+        background: -webkit-linear-gradient($primary-light, $primary-dark);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    h3 {
+        font-size: 2rem;
+        font-weight: 600;
         margin-top: 2rem;
         margin-bottom: 1rem;
         color: $primary-middle;
@@ -143,6 +163,16 @@ body{
     }
     img:hover{
         opacity: 0.8;
+    }
+    p, textarea, input, button{
+        font-size: 2rem;
+        opacity: 0.9;
+    }
+    textarea, input{
+        padding: 2.3rem;
+    }
+    button{
+        padding: 1.2rem;
     }
 }
 .navbar-brand{
@@ -446,4 +476,11 @@ hr{
         height: 5.5rem;
         width: auto
     }
+}
+.team{
+    img{
+        height: 360px; 
+        width: 100%; 
+        object-fit: cover;
+    } 
 }

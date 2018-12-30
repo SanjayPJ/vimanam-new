@@ -4,6 +4,7 @@
     .spacer-md{
         margin-top: 2.5rem;
     }
+
  }
  @media (max-width: 768px) { 
     .gf{
@@ -26,6 +27,13 @@
         border-radius: 7rem;
         top: -2.7rem;
         left: -15.4rem;
+    }
+    .team{
+        img{
+            height: 230px; 
+            width: 100%; 
+            object-fit: cover;
+        } 
     }
  }
 
@@ -81,7 +89,6 @@
     }
  }
  @media (min-width: 1440px) { 
-     //wait
      footer .img-wrapper{
          display: none;
      }
