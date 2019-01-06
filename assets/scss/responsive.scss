@@ -4,7 +4,6 @@
     .spacer-md{
         margin-top: 2.5rem;
     }
-
  }
  @media (max-width: 768px) { 
     .gf{
@@ -50,6 +49,11 @@
     .spacer-md{
         margin-top: 2.5rem;
     }
+    .newspaper {
+        -webkit-column-count: 2; /* Chrome, Safari, Opera */
+        -moz-column-count: 2; /* Firefox */
+        column-count: 2;
+      }
  }
 
 @media (min-width: 768px) { 
@@ -59,6 +63,11 @@
     .spacer-md{
         margin-top: 0;
     }
+    .newspaper {
+        -webkit-column-count: 3; /* Chrome, Safari, Opera */
+        -moz-column-count: 3; /* Firefox */
+        column-count: 3;
+      }
 
  }
  @media (min-width: 1200px) { 
@@ -97,7 +106,10 @@
          }
          a:hover{
             //  font-weight: 600;
-            color: #202020 !important;
+            text-decoration: underline;
+         }
+         a.active{
+            //  font-weight: 600;
             text-decoration: underline;
          }
      }

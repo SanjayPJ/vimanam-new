@@ -268,8 +268,15 @@ body {
     opacity: 1; }
 
 .services img {
-  width: 100%;
-  height: auto; }
+  width: 98%;
+  height: auto;
+  margin: auto;
+  -ms-transform: skewX(-1deg);
+  /* IE 9 */
+  -webkit-transform: skewX(-1deg);
+  /* Safari */
+  transform: skewX(-1deg);
+  /* Standard syntax */ }
 
 .services h2 {
   font-size: 3.6rem;
@@ -423,3 +430,9 @@ hr {
   width: 100%;
   height: auto;
   object-fit: cover; }
+
+.blog-container h2 {
+  font-size: 3rem; }
+
+.blog-container a:hover {
+  color: #28b485; }

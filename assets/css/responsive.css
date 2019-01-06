@@ -32,13 +32,25 @@
   html {
     font-size: 6px; }
   .spacer-md {
-    margin-top: 2.5rem; } }
+    margin-top: 2.5rem; }
+  .newspaper {
+    -webkit-column-count: 2;
+    /* Chrome, Safari, Opera */
+    -moz-column-count: 2;
+    /* Firefox */
+    column-count: 2; } }
 
 @media (min-width: 768px) {
   html {
     font-size: 7px; }
   .spacer-md {
-    margin-top: 0; } }
+    margin-top: 0; }
+  .newspaper {
+    -webkit-column-count: 3;
+    /* Chrome, Safari, Opera */
+    -moz-column-count: 3;
+    /* Firefox */
+    column-count: 3; } }
 
 @media (min-width: 1200px) {
   html {
@@ -68,7 +80,8 @@
     .navbar a {
       color: #202020 !important; }
     .navbar a:hover {
-      color: #202020 !important;
+      text-decoration: underline; }
+    .navbar a.active {
       text-decoration: underline; } }
 
 @media (min-width: 2500px) {
